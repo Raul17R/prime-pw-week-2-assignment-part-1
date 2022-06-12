@@ -69,15 +69,15 @@ else{
 
 if (pets > friendsPets) {
     mostPets = pets;
-    console.log('Pets is ', mostPets);
+    console.log('I have ' + mostPets,  'Pets');
 }
 else if (friendsPets > pets) {
     mostPets = friendsPets
-    console.log('Friends pets is ', mostPets);
+    console.log('My Friends have ' + mostPets ,'Pets');
 }
 else if (pets === friendsPets){
     mostPets = pets;
-    console.log('My friends an I have the same ammoun of pets', mostPets);
+    console.log('My friends an I have the same ammount of pets', mostPets);
 
 }
 
