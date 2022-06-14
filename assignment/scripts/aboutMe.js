@@ -9,13 +9,14 @@ let fullName = firstName + lastName;
 // 4 - Console log the value of `fullName`
 console.log(fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 4;
+let luckyNumber = 1;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 console.log('My name is', fullName +' and I think', luckyNumber + ' is a winner');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous = true;
+let adventurous = false;
+
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'pizza';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
@@ -28,7 +29,7 @@ pets = pets + 2;
 const allowedPets = 2;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if(adventurous = true) {
+if(adventurous == true) {
     console.log('Adventures are great!');
 }
 
